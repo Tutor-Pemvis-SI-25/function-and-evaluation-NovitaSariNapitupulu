@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="telas"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-11-18 09:12:57 PM"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtMjJJRTlKNEM7MjAyNS0xMS0xODswODoyNDoxNSBQTTsyNjAx"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtMjJJRTlKNEM7MjAyNS0xMS0xODswOToxMjo1NyBQTTsxOzI3MTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="command" type="String" array="False" size=""/>
+            <declare name="deskripsi" type="String" array="True" size="10"/>
+            <declare name="kode" type="String" array="True" size="10"/>
+            <declare name="matkul" type="String" array="True" size="10"/>
+            <declare name="dosen" type="String" array="True" size="10"/>
+            <declare name="dendline" type="String" array="True" size="10"/>
+            <declare name="ketID" type="String" array="True" size="10"/>
+            <declare name="kesulitan" type="String" array="True" size="10"/>
+            <declare name="hari" type="String" array="True" size="10"/>
+            <assign variable="totaldata" expression="0"/>
+            <while expression="command=&quot;---&quot;">
+                <input variable="command"/>
+                <if expression="command==&quot;update task status&quot;">
+                    <then/>
+                    <else/>
+                </if>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
